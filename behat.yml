@@ -1,0 +1,9 @@
+default:
+  extensions:
+    Behat\MinkExtension:
+      base_url: "http://www.wikipedia.org"
+      sessions:
+        first_session:
+          goutte: ~
+        second_session:
+          selenium2: ~
